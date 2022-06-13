@@ -1,0 +1,53 @@
+body {
+    background-image: url('b.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p-welcome {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(4, 4, 79);
+}
+.hobbies {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(4, 4, 79);
+}
+.main-container {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container {
+    width: 150%;
+}
+.image{
+    float: right;
+    margin-left:10px;
+    margin-right: 30px;
+    margin-top: 70px;
+    width: 70%;
+    height: 85%;
+    border-radius: 30px;
+}
+p {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(4, 4, 79);
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+a{
+    font-size: 30px;
+    font-style: italic;
+}
+@media(max-width: 1187px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

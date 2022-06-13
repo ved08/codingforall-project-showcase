@@ -1,0 +1,45 @@
+body{
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+    margin: 50px;
+    background-color: pink;
+    border: 25px;
+    border-style: dashed;
+    padding-left: 50px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+
+
+.main-container{
+    font-size: 60px;
+    font-family: 'Arimo', sans-serif;
+    color: blueviolet;
+    text-align: center;
+    justify-content: center;
+
+}
+    .header-1{
+        display: flex;
+        color: navy;
+        padding: 30px;
+        font-family: 'Arimo'sans-serif;
+        font-size: 100px;
+    }
+    .header-2{
+        display: flex;
+        color: navy;
+        padding: 30px;
+        font-family: 'Arimo'sans-serif;
+    }
+
+
+
+.picture-1 {
+    width: 20%;
+    text-align: right;
+    padding-left: 450px;
+    margin: 0;
+}

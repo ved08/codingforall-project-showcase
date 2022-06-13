@@ -1,0 +1,74 @@
+body{
+    margin: 50px;
+    padding-left: 40px;
+    background-color: pink;
+    border-style: dashed;  
+    padding: 50px;
+}
+
+.heading {
+    border: 3px blue;
+    border-radius: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+.main-container{
+    border: 2px solid black;
+    margin: 100px;
+    padding: 20px;
+    background-color: cyan; 
+    border-radius: 100px;
+    margin-top: 60px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.info {
+ display: flex;
+    flex-direction:  column;
+    font-family: 'Arimo', sans-serif;
+}
+
+.moreinfo {
+    text-align: left;
+    color: blueviolet;
+    padding: 30px;
+    font-family: 'Arimo', sans-serif;
+    
+
+}
+
+.main-container2 {
+    text-align: left;
+    margin: 20px;
+    margin-top: 100px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.para
+{
+    color: blue;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.sub-heading {
+    text-align: left;
+    padding: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
